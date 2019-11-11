@@ -19,6 +19,8 @@ public class Main {
     }
     parduotuve.ideti(new Preke("Skalbimo masina", "2014", 150));
 
+
+
     for(Preke p: parduotuve.getPrekes()) {
       System.out.println("Preke: "+p.getPavadinimas());
     }
